@@ -17,6 +17,8 @@
 		9258F96D1D12936A005FEAF5 /* MineControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258F96C1D12936A005FEAF5 /* MineControllerUITests.m */; };
 		9258F97E1D1293B1005FEAF5 /* cloud@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9258F97B1D1293B1005FEAF5 /* cloud@3x.png */; };
 		9258F97F1D1293B1005FEAF5 /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258F97D1D1293B1005FEAF5 /* MineController.m */; };
+		92E3F5EC1D2F59F400321001 /* ico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92E3F5EB1D2F59F400321001 /* ico.jpg */; };
+		92E3F5EF1D2F5A4700321001 /* UIView+DyfAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E3F5EE1D2F5A4700321001 /* UIView+DyfAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		9258F97B1D1293B1005FEAF5 /* cloud@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud@3x.png"; sourceTree = "<group>"; };
 		9258F97C1D1293B1005FEAF5 /* MineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineController.h; sourceTree = "<group>"; };
 		9258F97D1D1293B1005FEAF5 /* MineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineController.m; sourceTree = "<group>"; };
+		92E3F5EB1D2F59F400321001 /* ico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ico.jpg; sourceTree = "<group>"; };
+		92E3F5ED1D2F5A4700321001 /* UIView+DyfAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DyfAdd.h"; sourceTree = "<group>"; };
+		92E3F5EE1D2F5A4700321001 /* UIView+DyfAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DyfAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +154,9 @@
 		9258F97A1D12939B005FEAF5 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				92E3F5ED1D2F5A4700321001 /* UIView+DyfAdd.h */,
+				92E3F5EE1D2F5A4700321001 /* UIView+DyfAdd.m */,
+				92E3F5EB1D2F59F400321001 /* ico.jpg */,
 				9258F97B1D1293B1005FEAF5 /* cloud@3x.png */,
 				9258F97C1D1293B1005FEAF5 /* MineController.h */,
 				9258F97D1D1293B1005FEAF5 /* MineController.m */,
@@ -261,6 +269,7 @@
 			files = (
 				9258F9571D12936A005FEAF5 /* LaunchScreen.storyboard in Resources */,
 				9258F97E1D1293B1005FEAF5 /* cloud@3x.png in Resources */,
+				92E3F5EC1D2F59F400321001 /* ico.jpg in Resources */,
 				9258F9541D12936A005FEAF5 /* Assets.xcassets in Resources */,
 				9258F9521D12936A005FEAF5 /* Main.storyboard in Resources */,
 			);
@@ -287,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E3F5EF1D2F5A4700321001 /* UIView+DyfAdd.m in Sources */,
 				9258F97F1D1293B1005FEAF5 /* MineController.m in Sources */,
 				9258F94F1D12936A005FEAF5 /* ViewController.m in Sources */,
 				9258F94C1D12936A005FEAF5 /* AppDelegate.m in Sources */,
@@ -514,6 +524,7 @@
 				9258F9731D12936A005FEAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9258F9741D12936A005FEAF5 /* Build configuration list for PBXNativeTarget "MineControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +533,7 @@
 				9258F9761D12936A005FEAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9258F9771D12936A005FEAF5 /* Build configuration list for PBXNativeTarget "MineControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +542,7 @@
 				9258F9791D12936A005FEAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
